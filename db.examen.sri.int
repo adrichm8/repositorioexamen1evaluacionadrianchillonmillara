@@ -1,0 +1,15 @@
+$TTL 3600
+
+
+@		IN SOA	ns.tendaelectronica.int. admin.tendaelectronica.int (
+202411501   ; serial
+3600      ; refresh 
+1000       ; retry (1 hour)
+129660     ; expire (1 week)
+3600      ; minimum (10 hours 40 minutes)
+				)
+@		IN NS	ns.tendaelectronica.int.
+ns		IN A		172.16.0.1
+owncloud IN CNAME www
+@		IN TXT	"1234ASDF"
+
